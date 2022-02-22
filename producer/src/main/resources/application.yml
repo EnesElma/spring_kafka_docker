@@ -1,0 +1,5 @@
+spring:
+  kafka:
+    bootstrap-servers: ${MY_BROKER_PRODUCER:broker:19092}
+server:
+  port: 8080
